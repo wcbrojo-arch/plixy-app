@@ -1,0 +1,21 @@
+{
+  "name": "plixy",
+  "version": "0.1.0",
+  "description": "Plixy — minimal toy programming language (Node.js implementation)",
+  "main": "src/index.js",
+  "bin": {
+    "plixy-repl": "bin/repl.js",
+    "tx": "bin/tx.js"
+  },
+  "scripts": {
+    "repl": "node bin/tx.js",
+    "run": "node bin/tx.js",
+    "start": "node bin/tx.js"
+  },
+  "keywords": ["language", "interpreter", "plixy"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  }
+}
